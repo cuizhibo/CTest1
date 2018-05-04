@@ -13,6 +13,7 @@
 		DE7DA578209C96250083EBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7DA577209C96250083EBFD /* Assets.xcassets */; };
 		DE7DA57B209C96250083EBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7DA579209C96250083EBFD /* LaunchScreen.storyboard */; };
 		DE7DA57E209C96250083EBFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA57D209C96250083EBFD /* main.m */; };
+		DE7DA58A209C97200083EBFD /* UIView+Link.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA589209C97200083EBFD /* UIView+Link.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DE7DA57A209C96250083EBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE7DA57C209C96250083EBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE7DA57D209C96250083EBFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE7DA588209C97200083EBFD /* UIView+Link.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Link.h"; sourceTree = "<group>"; };
+		DE7DA589209C97200083EBFD /* UIView+Link.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Link.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		DE7DA56D209C96240083EBFD /* CTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				DE7DA584209C96EF0083EBFD /* CLibTest */,
 				DE7DA56E209C96240083EBFD /* AppDelegate.h */,
 				DE7DA56F209C96240083EBFD /* AppDelegate.m */,
 				DE7DA571209C96240083EBFD /* ViewController.h */,
@@ -69,6 +73,15 @@
 				DE7DA57D209C96250083EBFD /* main.m */,
 			);
 			path = CTest1;
+			sourceTree = "<group>";
+		};
+		DE7DA584209C96EF0083EBFD /* CLibTest */ = {
+			isa = PBXGroup;
+			children = (
+				DE7DA588209C97200083EBFD /* UIView+Link.h */,
+				DE7DA589209C97200083EBFD /* UIView+Link.m */,
+			);
+			path = CLibTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7DA58A209C97200083EBFD /* UIView+Link.m in Sources */,
 				DE7DA573209C96240083EBFD /* ViewController.m in Sources */,
 				DE7DA57E209C96250083EBFD /* main.m in Sources */,
 				DE7DA570209C96240083EBFD /* AppDelegate.m in Sources */,
